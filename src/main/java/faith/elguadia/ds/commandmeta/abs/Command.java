@@ -4,7 +4,7 @@ import javax.annotation.Nonnull;
 import java.util.Arrays;
 import java.util.List;
 
-public class Command implements ICommand {
+public abstract class Command implements ICommand {
 
     public final String name;
     public final List<String> aliases;
