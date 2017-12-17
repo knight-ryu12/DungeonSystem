@@ -18,6 +18,11 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile 'net.dv8tion:JDA:3.3.1_316'
+    compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+    compile group: 'org.yaml', name: 'snakeyaml', version: '1.19'
+    compile group: 'org.apache.commons', name: 'commons-text', version: '1.1'
+    compile group: 'commons-io', name: 'commons-io', version: '2.6'
+    compile group: 'commons-codec', name: 'commons-codec', version: '1.11'
 }
 
 compileJava.options.encoding = 'UTF-8'
